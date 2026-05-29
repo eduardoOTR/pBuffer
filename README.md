@@ -8,7 +8,7 @@ This program is a contact list manager written in C that intentionally uses a si
 
 ## Rules
 
-- **No variables can be declared in the entire program—only pointers are allowed.** All program data must be stored inside `pBuffer`.
+- **No variables can be declared in the entire program: only pointers are allowed.** All program data must be stored inside `pBuffer`.
     - Not even as function parameters. Only pointers that reference inside `pBuffer`.
         - Example: `int *ptr = (int *)pBuffer;`
         - Not allowed: `int c; char a; int v[10];  void function(int param)`
